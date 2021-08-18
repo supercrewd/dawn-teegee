@@ -42,6 +42,13 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Animology",
+              "subtext": "<p>Animology is the multi-award winning pet product brand that is trusted by pet owners, vets, retailers, groomers and championship show dog owners in more than 45 countries around the world to deliver the very highest standards of pet care.<\/p>"
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -49,23 +56,24 @@
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "text",
+          "366cd9b0-4ebe-4589-908b-fec4be7249e2": {
+            "type": "link_list",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Customer Service",
+              "menu": "customer-service"
             }
           }
         },
         "block_order": [
+          "footer-1",
           "footer-0",
-          "footer-1"
+          "366cd9b0-4ebe-4589-908b-fec4be7249e2"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "inverse",
           "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
