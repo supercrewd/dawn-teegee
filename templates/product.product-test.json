@@ -68,7 +68,9 @@
       }
     },
     "product-description": {
-      "type": "description"
+      "type": "description",
+      "settings": {
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
