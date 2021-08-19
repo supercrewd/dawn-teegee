@@ -50,13 +50,22 @@
             "share_label": "Share"
           }
         },
+        "8626d439-caf4-4673-8aaa-5cf40aa4ee34": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Short Description",
+            "content": "<p>{{ product.metafields.teegee.product_short_description | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "none"
+          }
+        },
         "8a607424-f977-4d20-830c-ed6ce20a7cd1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Ingredients",
             "content": "<p>{{ product.metafields.teegee.product_ingredients | metafield_tag }}<\/p>",
             "page": "",
-            "icon": "check_mark"
+            "icon": "none"
           }
         }
       },
@@ -69,6 +78,7 @@
         "quantity_selector",
         "buy_buttons",
         "share",
+        "8626d439-caf4-4673-8aaa-5cf40aa4ee34",
         "8a607424-f977-4d20-830c-ed6ce20a7cd1"
       ],
       "settings": {
