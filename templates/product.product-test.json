@@ -68,7 +68,7 @@
       }
     },
     "product-description": {
-      "type": "description",
+      "type": "product-description",
       "settings": {
       }
     },
