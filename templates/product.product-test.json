@@ -67,6 +67,9 @@
       "settings": {
       }
     },
+    "product-description": {
+      "type": "description"
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
