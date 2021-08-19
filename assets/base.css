@@ -786,9 +786,10 @@ summary::-webkit-details-marker {
   .title-wrapper-with-link {
     align-items: center;
   }
-
+ 
   .title-wrapper-with-link .title {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
+    margin: 0 auto;
   }
 
   .title-wrapper--self-padded-tablet-down {
