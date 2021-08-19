@@ -80,6 +80,7 @@
   },
   "order": [
     "main",
+    "product-description",
     "product-recommendations"
   ]
 }
