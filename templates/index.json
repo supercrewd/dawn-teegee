@@ -145,7 +145,8 @@
         "1629297263794ae779-2"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/Animology-Dogs-Body.jpg",
+        "height": "small",
         "color_scheme": "background-1",
         "layout": "image_first"
       }
@@ -179,7 +180,8 @@
         "16292973440d9df3bb-2"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/cat-poses-perfectly.jpg",
+        "height": "small",
         "color_scheme": "background-1",
         "layout": "text_first"
       }
