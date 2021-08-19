@@ -1,5 +1,31 @@
 {
   "sections": {
+    "1629363560c447f69b": {
+      "type": "rich-text",
+      "blocks": {
+        "1629363560c447f69b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Products",
+            "heading_size": "h1"
+          }
+        },
+        "1629363560c447f69b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop our range of dog, cat and horse products including shampoos, sprays and pet beds, including our award Fox Poo dog shampoo.<\/p><p><a href=\"\/collections\" title=\"All collections\">ALL<\/a>   -   <a href=\"\/collections\/dog-1\" title=\"Dog\">DOG<\/a>   -   <a href=\"\/collections\/cat\" title=\"Cat\">CAT<\/a><\/p><p><\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1629363560c447f69b-0",
+        "1629363560c447f69b-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
     "main": {
       "type": "main-list-collections",
       "settings": {
@@ -12,6 +38,7 @@
     }
   },
   "order": [
+    "1629363560c447f69b",
     "main"
   ]
 }
