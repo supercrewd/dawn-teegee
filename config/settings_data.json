@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "current": {
     "colors_accent_1": "#1A1B18",
     "colors_accent_2": "#FAF1E9",
@@ -85,8 +84,7 @@
     },
     "content_for_index": [
 
-    ]
-=======
+    ],
   "current": "Default",
   "presets": {
     "Default": {
@@ -147,6 +145,5 @@
         }
       }
     }
->>>>>>> 7a2f34fb8e2659c13c4e54068f77ecade1e884ff
   }
 }
