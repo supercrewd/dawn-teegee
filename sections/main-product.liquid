@@ -64,7 +64,7 @@
           {{ 'products.product.xr_button' | t }}
         </button>
       {%- endif -%}
-    </div> 
+    </div>
     <div class="product__info-wrapper grid__item">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
@@ -82,7 +82,7 @@
               {{ product.title | escape }}
             </h1>
 
-            <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+            <span class="shopify-product-reviews-badge" data-id="{{ product.id }}"></span>
 
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" {{ block.shopify_attributes }}>
@@ -100,6 +100,9 @@
                 {{ product.description }}
               </div>
             {%- endif -%}
+
+<div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
           {%- when 'collapsible_tab' -%}
